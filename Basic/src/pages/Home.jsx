@@ -2,7 +2,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <><div>
+      <div className="bg">
+      <h1>Junaid Ur Rahman</h1>
       <p className="p-4">
         Paragraphs are medium-sized units of writing, longer than sentences, but
         shorter than sections, chapters, or entire works. Because they connect
@@ -32,8 +34,13 @@ const Home = () => {
         everything you need to know about paragraph structure to write like an
         expert, including several paragraph examples.
       </p>
+       <div className="b1 flex  w-full justify-center">
+       <button className= 'bg-blue-800 px-4 py-1 hover:bg-slate-500 text-white font-semibold rounded-md'type="submit" >ClickMe</button>
+       </div>
+       
+      </div>
     </div>
-  );
+    </>);
 };
 
 export default Home;
